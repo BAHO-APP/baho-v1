@@ -17,7 +17,7 @@ const HomeDiv = () => {
   //   },
   // };
   return (
-    <main className="text-sm  font-poppins mb-[10%] relative overflow-x-hidden h-screen ">
+    <main className="text-sm  font-poppins mb-[10%] relative overflow-x-hidden overflow-y-hidden h-screen ">
       <Nav />
 <div className='pt-10 mb-[30%]  md:mb-12'>
       <div className="text-center mt-[20%] lg:mt-[3%]">
