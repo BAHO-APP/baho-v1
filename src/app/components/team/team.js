@@ -24,7 +24,7 @@ export default function Team (){
  </div>
 </div>
 <div className="lg:w-1/4  p-6 ">
-<img  className=" lg:h-[70%] h-[50]" src="/ed.png"/>
+<img  className=" lg:h-[70%] h-[50]" src="/edwin.png"/>
 <div className="text-center">
   <p className=" text-[#60e796] mt-4 text-ms font-bold" >Bayingana</p>
   <p className=" text-[#60e796] mt-4 text-ms font-bold" >bayingana@baho.rw</p>
