@@ -1,0 +1,197 @@
+/* HomeDiv.module.css */
+
+@keyframes moveAround {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(100%, 100%);
+  }
+  50% {
+    transform: translate(0, 200%);
+  }
+  75% {
+    transform: translate(-100%, 100%);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.circles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.circle {
+  position: absolute;
+  background-color: #60e796;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: moveAround 9s linear infinite;
+}
+
+/* Define positions for each circle */
+.circle1 {
+  top: 15%;
+  left: 20%;
+}
+
+.circle2 {
+  top: 4%;
+  left: 98%;
+}
+
+/* Add similar styles for circle3 to circle10 with different positions */
+.circle3 {
+  top: 34%;
+  left: 43%;
+}
+.circle4{
+  top: 80%;
+  left: 80%;
+}
+.circle5{
+  top: 75%;
+  left: 25%;
+}
+.circle6{
+  top: 25%;
+  left: 70%;
+}
+.circle7{
+  top: 80%;
+  left: 95%;
+}
+.circle8{
+  top: 40%;
+  left: 5%;
+}
+.circle9{
+  top: 10%;
+  left: 68%;
+}
+.circle10{
+  top: 85%;
+  left: 50%;
+}
+.circle11{
+  
+  top: 90%;
+  left: 7%;
+}
+
+.circle12{
+  top: 40%;
+  left: 90%;
+}
+.circle13{
+  top: 220%;
+  left: 60%;
+}
+/* .circle14{
+  top: 235%;
+  left: 40%;
+} */
+.circle15{
+    top: 235%;
+    left: 10%;
+  }
+.circle16{
+    top: 80%;
+    left: 10%;
+  }
+.circle17{
+    top: 90%;
+    left: 30%;
+  }
+.circle18{
+    top: 100%;
+    left: 50%;
+  }
+.circle19{
+    top: 110%;
+    left: 70%;
+  }
+.circle20{
+    top: 105%;
+    left: 90%;
+  }
+.circle21{
+    top: 170%;
+    left: 2%;
+  }
+.circle22{
+    top: 115%;
+    left: 35%;
+  }
+/* .circle23{
+    top: 145%;
+    left: 65%;
+  } */
+.circle24{
+    top: 175%;
+    left: 98%;
+  }
+  .circle25{
+    top: 222%;
+    left: 80%;
+  }
+  /* .circle26{
+    top: 240%;
+    left: 60%;
+  } */
+  .circle27{
+    top: 230%;
+    left: 30%;
+  }
+  .circle28{
+    top: 230%;
+    left: 0%;
+  }
+  .circle29{
+    top: 245%;
+    left: 95%;
+  }
+  .circle30{
+    top: 270%;
+    left: 95%;
+  }
+  .circle32{
+    top: 280%;
+    left: 5%;
+  }
+  .circle33{
+    top: 295%;
+    left: 40%;
+  }
+  .circle34{
+    top: 310%;
+    left: 60%;
+  }
+  .circle35{
+    top: 330%;
+    left: 5%;
+  }
+  .circle36{
+    top: 340%;
+    left: 95%;
+  }
+  .circle37{
+    top: 340%;
+    left: 65%;
+  }
+  .circle38{
+    top: 350%;
+    left: 55%;
+  }
+  .circle39{
+    top: 345%;
+    left: 40%;
+  }
+/* ... Repeat for circle4 to circle10 */
