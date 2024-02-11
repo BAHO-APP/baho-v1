@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
+import Image from 'next/image'
 
 export default function Nav() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -28,7 +29,7 @@ export default function Nav() {
     <main>
       <div className="flex justify-between py-10 px-4 md:px-14">
         <div className=" lg:ml-[34%] ml-[30%]  mt-4 rounded-full   ">
-         <img src="/logo.png" className='lg:w-[26em] w-[10em]'/>
+         <Image alt="logo" src="/logo.png" className='lg:w-[26em] w-[10em]'/>
         </div>
 
         <div className="md:hidden">

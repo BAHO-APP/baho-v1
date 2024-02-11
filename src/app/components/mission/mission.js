@@ -1,11 +1,12 @@
 // Mission.js
 import React from 'react';
+import Image from 'next/image'
 
 export default function Mission() {
   return (
     <main id="mission" className=" font-poppins text-sm mt-[40%] lg:mt-[20%]">
        <div className=" lg:ml-[34%] ml-[30%]  mt-4 rounded-full   ">
-         <img src="/logo.png" className='lg:w-[26em] w-[10em]'/>
+         <Image alt="logo" src="/logo.png" className='lg:w-[26em] w-[10em]'/>
         </div>
 
       <div className=" overflow-x-hidden grid grid-cols-1 md:grid-cols-2 gap-8 px-4 md:px-20 mt-32 text-center">
