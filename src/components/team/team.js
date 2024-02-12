@@ -4,7 +4,7 @@ export default function Team (){
       <main id="team" className=" overflow-x-hidden text-sm font-poppins py-14 mt-16">
           <div className="">
           <div className="text-center   ">
-        <p className="text-8xl  font-ruso  tracking-widest text-[#60e796]  font-extrabold">
+        <p className="md:text-8xl text-5xl  font-ruso   tracking-widest text-[#60e796]  font-extrabold">
          TEAM
         </p>
       </div>
@@ -27,7 +27,7 @@ export default function Team (){
 <img  className=" lg:h-[70%] h-[50]" src="/edwin.png" alt="Team mate "/>
 <div className="text-center">
   <p className=" text-[#60e796] mt-4 text-ms font-bold" >Bayingana</p>
-  <p className="  mt-1 font-nunito  text-white" >Co-Founder (Chief Techinical)</p>  
+  <p className="  mt-1 font-nunito  text-white" >Co-Founder (Chief Technical)</p>  
   <p className=" text-[#60e796] mt-2 text-ms font-bold" >bayingana@baho.rw</p>
   <div className="flex justify-center ">
   <img className="w-3 h-3 mt-2" src="/phone.png" alt="Team mate "/>

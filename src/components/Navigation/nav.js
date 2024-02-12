@@ -63,14 +63,15 @@ export default function Nav() {
 
         {isMobileMenuOpen && (
           <div ref={mobileMenuRef} className="md:hidden absolute top-20 right-4 z-[200] bg-white p-4 rounded-md shadow-md">
-            <a href="#mission" className="block py-2 text-gray-800">
-              Mission
-            </a>
-            <a href="#product" className="block py-2 text-gray-800">
+           
+            <a href="#product" className="block focus:outline-none py-2 text-gray-800">
               Product
             </a>
-            <a href="#team" className="block py-2 text-gray-800">
+            <a href="#team" className="block focus:outline-none py-2 text-gray-800">
               Team
+            </a>
+            <a href="#vision" className="block focus:outline-none py-2 text-gray-800">
+              vision
             </a>
           </div>
         )}
