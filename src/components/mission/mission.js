@@ -1,12 +1,11 @@
 // Mission.js
 import React from 'react';
-import Image from 'next/image'
 
 export default function Mission() {
   return (
     <main id="mission" className=" font-poppins text-sm mt-[40%] lg:mt-[20%]">
        <div className=" lg:ml-[34%] ml-[30%]  mt-4 rounded-full   ">
-         <Image alt="logo" src="/logo.png" className='lg:w-[26em] w-[10em]'/>
+         <img alt="logo" src="/logo.png" className='lg:w-[26em] w-[10em]'/>
         </div>
 
       <div className=" overflow-x-hidden grid grid-cols-1 md:grid-cols-2 gap-8 px-4 md:px-20 mt-32 text-center">
@@ -18,8 +17,9 @@ export default function Mission() {
           {
             title: 'Solution',
             content:
-              'BAHO is a smartphone application driven by conversational voice technology and AI live interactions for Kinyarwanda Language. Our solution is dedicated to preserving and promoting Kinyarwanda, fostering seamless communication between Kinyarwanda speakers and English speakers.',
-          },
+              'BAHO is a smartphone voice application built by native Rwandans.  ',
+            new:"The application uses conversational technology and AI live interactions. Our solution is dedicated to preserving and promoting Kinyarwanda language, fostering seamless communication between Kinyarwanda and English speakers."
+          }
           // {
           //   title: 'Vision',
           //   content:
@@ -31,7 +31,8 @@ export default function Mission() {
               {/* <div className="h-2 ml-[25%] mb-1 bg-[#60e796] rounded-full w-2"></div> */}
               <p className="text-[#60e796] md:text-5xl text-3xl font-bold">{item.title}</p>
               
-              <p className="mt-6  text-left pl-2 text-gray-300  font-bold">{item.content}</p>
+              <p className="mt-6  text-left pl-2 text-gray-300  font-bold">{item.content} </p>
+              <p className="mt-1  text-left pl-2 text-gray-300  font-bold">{item.new} </p>
             </div>
           </div>
         ))}

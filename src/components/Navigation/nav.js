@@ -1,5 +1,4 @@
 import { useState, useRef, useEffect } from 'react';
-import Image from 'next/image'
 
 export default function Nav() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -10,29 +9,29 @@ export default function Nav() {
   };
 
   useEffect(() => {
-    const handleOutsideClick = (event) => {
+    const handleClickOutside = (event) => {
       if (mobileMenuRef.current && !mobileMenuRef.current.contains(event.target)) {
         setIsMobileMenuOpen(false);
       }
     };
 
     if (isMobileMenuOpen) {
-      document.addEventListener('click', handleOutsideClick);
+      document.addEventListener('mousedown', handleClickOutside);
     }
 
     return () => {
-      document.removeEventListener('click', handleOutsideClick);
+      document.removeEventListener('mousedown', handleClickOutside);
     };
   }, [isMobileMenuOpen]);
 
   return (
-    <main>
-      <div className="flex justify-between py-10 px-4 md:px-14">
-        <div className=" lg:ml-[34%] ml-[30%]  mt-4 rounded-full   ">
-         <Image alt="logo" src="/logo.png" className='lg:w-[26em] w-[10em]'/>
+    <div>
+      <div className="flex justify-between py-2 px-4 md:px-4">
+        <div className="lg:ml-[34%] ml-[30%] mt-16 rounded-full">
+          <img alt="logo" src="/logo.png" className="lg:w-[26em] w-[10em]" />
         </div>
 
-        <div className="md:hidden">
+        <div className="md:hidden mr-2">
           <button className="text-white" onClick={toggleMobileMenu}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -49,23 +48,21 @@ export default function Nav() {
           </button>
         </div>
 
-        <div className="hidden text-sm cursor-pointer md:flex font-bold space-x-8 text-white">
-          <a href="#mission" className="relative group">
-            Mission
-          </a>
+        <div className="hidden  text-lg cursor-pointer md:flex font-extrabold space-x-4 text-[#60e796] ">
+         
           <a href="#product" className="relative group">
             Product
           </a>
           <a href="#team" className="relative group">
             Team
           </a>
+          <a href="#vision" className="relative group">
+            vision
+          </a>
         </div>
 
         {isMobileMenuOpen && (
-          <div ref={mobileMenuRef} className="md:hidden absolute top-20 right-4  z-[200] bg-white p-4 rounded-md shadow-md">
-            <a href="#" className="block py-2 text-gray-800">
-              Home
-            </a>
+          <div ref={mobileMenuRef} className="md:hidden absolute top-20 right-4 z-[200] bg-white p-4 rounded-md shadow-md">
             <a href="#mission" className="block py-2 text-gray-800">
               Mission
             </a>
@@ -78,6 +75,6 @@ export default function Nav() {
           </div>
         )}
       </div>
-    </main>
+    </div>
   );
 }

@@ -10,10 +10,11 @@ module.exports = {
     extend: {
       fontFamily: {
         nunito: ['Nunito', 'sans-serif'],
-        poppins:['Poppins','sans-serif']
+        poppins:['Poppins','sans-serif'],
+        ruso: ['Russo One', 'sans-serif']
       },
       backgroundImage: {
-        'gira':"url('/giraffe.jpg')",
+        // 'gira':"url('/giraffe.jpg')",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
