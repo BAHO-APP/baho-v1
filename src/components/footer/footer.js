@@ -3,7 +3,7 @@ export function Footer(){
         <div id="vision">
             <div className="text-center mb-16 px-12">
   <h1 className=" text-5xl text-[#60e796] font-bold">Vision</h1>
-  <p className="mt-10 text-xl   font-bold text-gray-300 leading-10 ">
+  <p className="mt-10 text-xl   font-bold  text-gray-200 leading-10 ">
   At BAHO-APP, our mission is to pioneer the advancement of voice technologies using artificial intelligence for Native African languages. BAHO-APP started with kinyarwanda language to pave the way, empower communities  and preserve our undereppresented native African languages in the digital landscape</p>
 </div>
 

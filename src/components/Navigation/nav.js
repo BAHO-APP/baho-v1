@@ -27,7 +27,17 @@ export default function Nav() {
   return (
     <div>
       <div className="flex justify-between py-2 px-4 md:px-4">
-        <div className="lg:ml-[34%] ml-[30%] mt-16 rounded-full">
+        <div className=' bg-[#141615] rounded-lg text-center hidden md:block p-2  h-24 '>
+          <p className='text-white font-bold text-2xl'>
+            
+            Coming Soon
+          </p>
+          <p className='text-white font-bold  text-2xl'>
+            
+            1st March 2024
+          </p>
+        </div>
+        <div className="lg:ml-[3%] ml-[30%] mt-16 rounded-full">
           <img alt="logo" src="/logo.png" className="lg:w-[26em] w-[10em]" />
         </div>
 
