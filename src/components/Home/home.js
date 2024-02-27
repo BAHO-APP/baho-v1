@@ -40,7 +40,7 @@ const HomeDiv = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center mt-[70%]">
+      <div className="flex justify-center items-center mt-[60%]">
         {' '}
         <div className="md:hidden absolute z-100">
           <div className=" bg-[#141615] rounded-lg text-center flex  px-4 pt-3  h-24 ">
