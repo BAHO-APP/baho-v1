@@ -34,7 +34,7 @@ export default function Nav() {
           </p>
           <p className='text-white font-bold  text-2xl'>
             
-            1st March 2024
+            10th March 2024
           </p>
         </div>
         <div className="lg:ml-[3%] ml-[30%] mt-16 rounded-full">
