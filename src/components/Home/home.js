@@ -46,7 +46,7 @@ const HomeDiv = () => {
           <div className=" bg-[#141615] rounded-lg text-center flex  px-4 pt-3  h-24 ">
             <div>
               <p className="text-white font-bold text-2xl">Coming Soon</p>
-              <p className="text-white font-bold  text-2xl">10th March 2024</p>
+              <p className="text-white font-bold  text-2xl">00 March 2024</p>
             </div>
           </div>
         </div>
