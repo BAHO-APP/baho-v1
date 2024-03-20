@@ -17,7 +17,7 @@ export default function Product() {
  </div>
  <div className=' block sm:flex lg:mt-[14%] mt-[22%] '>
  <div className='flex-grow flex-basis-0 flex   justify-center'>
- <p className='absolute text-[#60e796]    lg:text-5xl text-4xl   font-bold '>Solo Mode</p>
+ <p className='absolute text-[#60e796]    lg:text-5xl text-4xl   font-bold '>Translational Mode</p>
     {/* <img alt="conversation" className='md:w-[65%] w-[45%] mt-[20%]  lg:mt-[24%] ' src='/convo.png' /> */}
 
     <video
