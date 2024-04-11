@@ -6,7 +6,7 @@ export default function Team() {
     >
       <div className="">
         <div className="text-center   ">
-          <p className="md:text-8xl text-5xl  font-ruso   tracking-widest text-[#60e796]  font-extrabold">
+          <p className=" md:text-7xl text-5xl  font-ruso   tracking-widest text-[#60e796]  font-extrabold">
             TEAM
           </p>
         </div>

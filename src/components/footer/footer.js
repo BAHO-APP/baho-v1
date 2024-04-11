@@ -2,7 +2,7 @@ export function Footer() {
   return (
     <div id="vision">
       <div className="text-center mb-16 px-12">
-        <h1 className=" text-5xl text-[#60e796] font-bold">Vision</h1>
+        <h1 className=" md:text-6xl text-5xl  font-ruso tracking-widest    text-[#60e796]  font-extrabold   uppercase">Vision</h1>
         <p className="mt-10 text-xl   font-bold text-gray-200 leading-10 ">
           At BAHO-APP, our mission is to pioneer the advancement of voice
           technologies using artificial intelligence for Native African
