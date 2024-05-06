@@ -13,12 +13,11 @@ export default function Mission() {
           {
             title: 'Challenge',
             content:
-"Reduction in the use of our native language Kinyarwanda by the new generation replacing it with foreign languages. Existing language barrier between Kinyarwanda and English speakers."          },
+"Reduction in the use of our native language Kinyarwanda replacing it with foreign languages. Existing language barrier between Kinyarwanda and English speakers. Also the existence of low usage of smartphones among the Rwandan society."          },
           {
             title: 'Solution',
             content:
-              'BAHO is a smartphone voice application built by native Rwandans.  ',
-            new:"The application uses conversational technology and AI live interactions. Our solution is dedicated to preserving and promoting Kinyarwanda language, fostering seamless communication between Kinyarwanda and English speakers."
+              'BAHO is an AI  smartphone voice application built by native Rwandans.The application BAHO uses AI conversational technology . Preserving Kinyarwanda language and promoting the adoption of smartphones by new users through the use of BAHO application ',
           }
           // {
           //   title: 'Vision',

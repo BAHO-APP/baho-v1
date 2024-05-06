@@ -39,46 +39,19 @@ export default function Team() {
           <div className="lg:w-1/4  p-6 ">
             <img
               className=" lg:h-[70%] h-[50]"
-              src="/edwin.png"
+              src="/mj.png"
               alt="Team mate "
             />
             <div className="text-center">
               <p className=" text-[#60e796] mt-4 text-ms font-bold">
-                Bayingana
+              Maniraguha
               </p>
               <p className="  mt-1 font-nunito  text-white">
-                Co-Founder (Chief Technical)
-              </p>
-              <p className=" text-[#60e796] mt-2 text-ms font-bold">
-                bayingana@baho.rw
-              </p>
-              <div className="flex justify-center ">
-                <img
-                  className="w-3 h-3 mt-2"
-                  src="/phone.png"
-                  alt="Team mate "
-                />
-                <p className="  mt-1 font-nunito text-[#60e796] ml-2 ">
-                  +250 738 076 778
-                </p>
-              </div>
+              Content Creator              </p>
+          
             </div>
           </div>
-          <div className="lg:w-1/4 p-6 ">
-            <img
-              className="lg:h-[70%] h-[50] "
-              src="/di2.png"
-              alt="Team mate "
-            />
-            <div className=" text-center ">
-              <p className=" text-[#60e796] mt-4  text-ms font-bold">
-                Ntakirutimana
-              </p>
-              <p className="  mt-1 font-nunito text-white ">
-                Software Developer
-              </p>
-            </div>
-          </div>
+        
           <div className="lg:w-1/4  p-6 ">
             <img
               className=" lg:h-[70%] h-[50]"
@@ -95,19 +68,7 @@ export default function Team() {
         </div>
 
         <div className=" lg:flex mx-10  lg:mt-10  px-10 lg:px-0 slg:pace-x-20 ">
-          <div className="lg:w-1/4  p-6 ">
-            <img
-              className="lg:h-[70%] h-[50] "
-              src="/mj.png"
-              alt="Team mate "
-            />
-            <div className=" text-center ">
-              <p className=" text-[#60e796] mt-4  text-ms font-bold">
-                Maniraguha
-              </p>
-              <p className="  mt-1 font-nunito text-white  ">Content Creator</p>
-            </div>
-          </div>
+         
           <div className="lg:w-1/4  p-6 ">
             <img
               className="lg:h-[70%] h-[50]"
