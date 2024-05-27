@@ -10,7 +10,10 @@ export default function Nav() {
 
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (mobileMenuRef.current && !mobileMenuRef.current.contains(event.target)) {
+      if (
+        mobileMenuRef.current &&
+        !mobileMenuRef.current.contains(event.target)
+      ) {
         setIsMobileMenuOpen(false);
       }
     };
@@ -27,15 +30,9 @@ export default function Nav() {
   return (
     <div>
       <div className="flex justify-between py-2 px-4 md:px-4">
-        <div className=' bg-[#141615] rounded-lg text-center hidden md:block p-2  h-24 '>
-          <p className='text-white font-bold text-2xl'>
-            
-            Coming Soon
-          </p>
-          <p className='text-white font-bold  text-2xl'>
-            
-            00 May 2024
-          </p>
+        <div className=" bg-[#141615] rounded-lg text-center hidden md:block p-2  h-24 ">
+          <p className="text-white font-bold text-2xl">Coming Soon</p>
+          <p className="text-white font-bold  text-2xl">00 June 2024</p>
         </div>
         <div className="lg:ml-[3%] ml-[30%] mt-16 rounded-full">
           <img alt="logo" src="/logo.png" className="lg:w-[26em] w-[10em]" />
@@ -59,7 +56,6 @@ export default function Nav() {
         </div>
 
         <div className="hidden  text-lg cursor-pointer md:flex font-extrabold space-x-4 text-[#60e796] ">
-         
           <a href="#product" className="relative group">
             Product
           </a>
@@ -72,15 +68,26 @@ export default function Nav() {
         </div>
 
         {isMobileMenuOpen && (
-          <div ref={mobileMenuRef} className="md:hidden absolute top-20 right-4 z-[200] bg-white p-4 rounded-md shadow-md">
-           
-            <a href="#product" className="block focus:outline-none py-2 text-gray-800">
+          <div
+            ref={mobileMenuRef}
+            className="md:hidden absolute top-20 right-4 z-[200] bg-white p-4 rounded-md shadow-md"
+          >
+            <a
+              href="#product"
+              className="block focus:outline-none py-2 text-gray-800"
+            >
               Product
             </a>
-            <a href="#team" className="block focus:outline-none py-2 text-gray-800">
+            <a
+              href="#team"
+              className="block focus:outline-none py-2 text-gray-800"
+            >
               Team
             </a>
-            <a href="#vision" className="block focus:outline-none py-2 text-gray-800">
+            <a
+              href="#vision"
+              className="block focus:outline-none py-2 text-gray-800"
+            >
               vision
             </a>
           </div>
