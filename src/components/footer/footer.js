@@ -1,14 +1,12 @@
-import emailjs from "@emailjs/browser";
-import {  useState } from "react";
+import emailjs from '@emailjs/browser';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export function Footer() {
-
-
-
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    message: ''
+    message: '',
   });
   const [errors, setErrors] = useState({});
 
@@ -50,21 +48,36 @@ export function Footer() {
     e.preventDefault();
 
     if (validateForm()) {
-      emailjs.sendForm('service_d5oh6m4', 'template_2qzn4dh', e.target, 'pdhrxA6N0R7PFkN52')
-        .then((result) => {
-          console.log(result.text);
-          clearForm();
-        }, (error) => {
-          console.log(error.text);
-        });
+      emailjs
+        .sendForm(
+          'service_d5oh6m4',
+          'template_2qzn4dh',
+          e.target,
+          'pdhrxA6N0R7PFkN52',
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            clearForm();
+          },
+          (error) => {
+            console.log(error.text);
+          },
+        );
     }
   };
   return (
     <div id="vision">
       <div className="text-center mb-16 px-12">
-        <h1 className=" md:text-6xl text-5xl  font-ruso tracking-widest    text-[#60e796]  font-extrabold   uppercase">Vision</h1>
+        <h1 className=" md:text-6xl text-5xl  font-ruso tracking-widest    text-[#60e796]  font-extrabold   uppercase">
+          Vision
+        </h1>
         <p className="mt-10 text-xl   font-bold text-gray-200 leading-10 ">
-        At BAHO-APP cbc, our mission is to pioneer the advancement of voice technologies using artificial intelligence for Native African languages. BAHO-APP cbc started with Kinyarwanda language to pave the way, empower communities and preserve our underrepresented native African languages in the digital landscape
+          At BAHO-APP cbc, our mission is to pioneer the advancement of voice
+          technologies using artificial intelligence for Native African
+          languages. BAHO-APP cbc started with Kinyarwanda language to pave the
+          way, empower communities and preserve our underrepresented native
+          African languages in the digital landscape
         </p>
       </div>
 
@@ -72,12 +85,14 @@ export function Footer() {
         style={{ backgroundImage: "url('/giraffe.jpg')" }}
         className="text-center bg-cover bg-no-repeat bg-center font-poppins "
       >
-
-
-        <div className='    md:items-end md:absolute justify-center items-center     ml-4 text-sm  md:px-2 md:pt-24 pt-32  flex'>
-        
-        </div>
-        <div className="flex h-64 md:h-[384px] lg:h-[420px] xl:h-[500px] items-end justify-end  mr-4 md:space-x-[30%] ">
+        <div className="    md:items-end md:absolute justify-center items-center     ml-4 text-sm  md:px-2 md:pt-24 pt-32  flex"></div>
+        <div className="flex h-64 md:h-[384px] lg:h-[420px] xl:h-[500px] items-end justify-between  mx-4">
+          <Link
+            to="/privacy-policy"
+            className="font-extrabold text-lg underline cursor-pointer"
+          >
+            Privacy Policy
+          </Link>
           <div className="flex">
             <p className="font-bold mt-[1%] text-sm mr-1 text-[#ffffff]">
               Powered By
