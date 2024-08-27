@@ -89,7 +89,7 @@ export function Footer() {
         <div className="flex h-64 md:h-[384px] lg:h-[420px] xl:h-[500px] items-end justify-between  mx-4">
           <Link
             to="/privacy-policy"
-            className="font-extrabold text-lg underline cursor-pointer"
+            className="font-extrabold text-md underline cursor-pointer"
           >
             Privacy Policy
           </Link>
